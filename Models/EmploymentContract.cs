@@ -7,7 +7,7 @@
         public DateTime EndDate { get; set; }
         public decimal Salary { get; set; }
 
-        public int EmployeeId { get; set; } // Foreign Key
+        public int EmployeeId { get; set; }
         public virtual Employee Employee { get; set; } = null!;
     }
 

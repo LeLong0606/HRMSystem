@@ -16,7 +16,7 @@ namespace HRMSystem.Models
         public int? ContractId { get; set; }
         public virtual EmploymentContract? Contract { get; set; }
 
-        public virtual Salary? Salary { get; set; } // Sửa lại quan hệ với Salary
+        public virtual Salary? Salary { get; set; }
 
         public DateTime HireDate { get; set; }
 
